@@ -1,18 +1,12 @@
 ---
 layout: page
 title: List 100
-permalink: /list100/
+permalink: /list-100/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Things I want to do before I die. Please let me know if you have any recommendation.
+Progress as of  Octorber 2, 2021: .
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+1. ✓ Start a company
+2. ✗ Brace
+3. ✓
