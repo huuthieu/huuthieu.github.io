@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List100
+title: List 100
 permalink: /list100/
 ---
 
