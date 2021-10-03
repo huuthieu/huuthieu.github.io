@@ -15,12 +15,10 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:
-    -username: huuthieu
-     instance: https://github.com
+    github: huuthieu
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: https://www.facebook.com/huuthieu.teenhotboy/
+    facebook: huuthieu.teenhotboy
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: https://www.linkedin.com/in/thieu-do-huu-001a67129/
