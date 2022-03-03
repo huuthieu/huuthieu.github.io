@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-<article class="post">
-
+<div class="post">
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
@@ -20,4 +24,4 @@ layout: default
     {%- endfor -%}
   </ul>
 
-</article>
+</div>
