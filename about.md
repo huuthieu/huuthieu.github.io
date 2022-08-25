@@ -12,4 +12,4 @@ Resume của mình ở đây.
 
 <button name="button" onclick="https://huuthieu.github.io/resume/DoHuuThieu_CV.pdf">RESUME</button>
 
-<a class="btn btn-lg btn-border ripple" rel="noopener noreferrer" target="_blank" href="./file/DoHuuThieu_CV.pdf.pdf">Resume</a>
+<a class="btn btn-lg btn-border ripple" rel="noopener noreferrer" target="_blank" href="https://huuthieu.github.io/resume/DoHuuThieu_CV.pdf">Resume</a>
