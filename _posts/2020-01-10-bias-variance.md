@@ -30,7 +30,7 @@ Bây giờ ta có 3000 = (1000 OLS + 1000 Ridge + 1000 Lasso) giá trị $x$ d�
 
 Với giá trị λ rất nhỏ, tức là gần như không có regularization trong trường hợp này. Do đó ta kì vọng kết quả của 3 mô hình là gần như nhau.
 
-![l0_0001](img/bias-variance/I0_0001.png)
+![l0_0001](img/bias-variance/l0_0001.png)
 
 Trong hình, giá trị thực được biểu diễn bằng đường nét đứt màu đen, các giá trị mean của các phân phối cũng là các đường nét đứt nhưng có màu như được chú thich trên bảng.
 
