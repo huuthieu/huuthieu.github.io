@@ -30,7 +30,7 @@ Bây giờ ta có 3000 = (1000 OLS + 1000 Ridge + 1000 Lasso) giá trị $x$ d�
 
 Với giá trị λ rất nhỏ, tức là gần như không có regularization trong trường hợp này. Do đó ta kì vọng kết quả của 3 mô hình là gần như nhau.
 
-![I0_0001](img/bias-variance/I0_0001.png)
+![l0_0001](img/bias-variance/I0_0001.png)
 
 Trong hình, giá trị thực được biểu diễn bằng đường nét đứt màu đen, các giá trị mean của các phân phối cũng là các đường nét đứt nhưng có màu như được chú thich trên bảng.
 
@@ -38,37 +38,37 @@ Ta có thể thấy 3 phân phối overlap lên nhau với giá trị mean xung 
 
 ## $λ = 0.01$
 
-![I0_01](img/bias-variance/I0_01.png)
+![l0_01](img/bias-variance/l0_1.png)
 
 Mới chỉ tăng λ lên một chút ta đã thấy có sự khác biệt ở đây. Theo đó, các phân phối có xu hướng bị dịch sang trái. Ridge bị một ít bias (độ lệch của mean phân phối so với giá trị thực), trong khi Lasso bị bias nhiều hơn. Điều đó cho thấy Lasso nhạy cảm với nhiễu nhiều hơn so với Ridge. Ở trường hợp này variance không thay đổi nhiều so với trường hợp trước.
 
 ## $λ = 0.05$
 
-![I0_05](img/bias-variance/I0_05.png)
+![l0_05](img/bias-variance/l0_05.png)
 
 Với λ = 0.05 ta thấy Lasso đã bị bias quá nhiều (3 đơn vị). Ridge vẫn không bị bias nhiều tuy nhiên variance vẫn vậy. Do đó có thể thấy với dữ liệu này thì Ridge không có tác dụng gì.
 
 ## $λ = 0.1$
 
-![I0_1](img/bias-variance/I0_1.png)
+![l0_1](img/bias-variance/l0_1.png)
 
 Gần như giống hệt kết quả của trường hợp trước. Ta không thấy rõ sự thay đổi của variance.
 
 ## $λ = 0.5$
 
-![I0_5](img/bias-variance/I0_5.png)
+![l0_5](img/bias-variance/l0_5.png)
 
 λ cao hơn cho ta một số nhận xét hợp lý sau. Bias của Ridge đã tăng lên gần ba đơn vị, nhưng variance đã nhỏ hơn. Lasso đã penalty làm cho hệ sốβ  gần bằng không dẫn đến kết quả có bias rất cao nhưng có variance nhỏ.
 
 ## $λ = 1$
 
-![I1](img/bias-variance/I1.png)
+![l1](img/bias-variance/l1.png)
 
 **Một kết quả khá ổn.** Ở đây sự tradeoff đã đổi chiều. Variance của Ridge đã nhỏ đi đánh đổi với việc có bias lớn.
 
 ## $λ = 5$
 
-![I5](img/bias-variance/I5.png)
+![I5](img/bias-variance/l5.png)
 
 Cuối cùng, ta set λ rất lớn. Variance của Ridge đã trờ nên rất nhỏ, đồng thời bias rất lớn. Trong thực tế ta sẽ không bao giờ cho regularization lớn như vậy, tuy nhiên ở đây có thể thấy rõ sự tradeoff là variance càng nhỏ thì bias càng lớn.
 
