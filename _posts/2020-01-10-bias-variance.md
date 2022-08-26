@@ -26,7 +26,7 @@ Lí do chọn mô hình tuyến tính để trực quan là vì chúng dễ hi�
 
 Bây giờ ta có 3000 = (1000 OLS + 1000 Ridge + 1000 Lasso) giá trị $x$ dự đoán. Dựa vào các giá trị dự đoán này, ta đã đủ thông tin để có chơi với các mô hình và khảo sát các tính chất của chúng 😃.
 
-## \\() λ \sim 0 )\\
+## \\( λ \sim 0 )\\
 
 Với giá trị λ rất nhỏ, tức là gần như không có regularization trong trường hợp này. Do đó ta kì vọng kết quả của 3 mô hình là gần như nhau.
 
