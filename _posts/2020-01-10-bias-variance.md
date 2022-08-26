@@ -12,8 +12,6 @@ categories: programming
 
 Chắc hẳn nhiều người đã từng nhìn thấy sơ đồ này:
 
-![tradeoff](img/bias-variance/Untitled.png)
-
 <img src="img/bias-variance/Untitled.png" alt="drawing" width="600"/>
 
 Hình trên cho ta thấy giá trị dự đoán của mô hình với các giá trị bias và variance khác nhau. Hồng tâm của từng tấm bia là label thực tế của dữ liệu và những chấm xanh trên từng hình là giá trị mà mô hình dự đoán ra. Trong bài này, chúng ta sẽ thử trực quan hóa sự trade off giữa bias và variance trong mô hình tuyến tính.
@@ -22,9 +20,9 @@ Lí do chọn mô hình tuyến tính để trực quan là vì chúng dễ hi�
 
 ## Thí nghiệm
 
-1. Tạo 500 điểm dữ liệu theo phương trình $y = α+ βx + ϵ$ với $$ϵ \sim N(0, 8)$$, $$x \sim U(-2, 2), α = 2$$ và $$β = 3$$.
+1. Tạo 500 điểm dữ liệu theo phương trình $$y = α+ βx + ϵ$$ với $$ϵ \sim N(0, 8)$$, $$x \sim U(-2, 2), α = 2$$ và $$β = 3$$.
 2. Lặp lại bước 1 $$1000$$ lần ta có 1000 tập dữ liệu.
-3. Đối với mỗi tập fit các mô hình OLS, Ridge và Lasso với một hệ số λ cố định. Sau đó dự đoán y khi cho $$x = 3$$. Kết quả dự đoán nên xấp xỉ  $$2 + 3 \times 3 = 11$$.
+3. Đối với mỗi tập fit các mô hình OLS, Ridge và Lasso với một hệ số λ cố định. Sau đó dự đoán $$y$$ khi cho $$x = 3$$. Kết quả dự đoán nên xấp xỉ  $$2 + 3 \times 3 = 11$$.
 
 Bây giờ ta có 3000 = (1000 OLS + 1000 Ridge + 1000 Lasso) giá trị $$x$$ dự đoán. Dựa vào các giá trị dự đoán này, ta đã đủ thông tin để có chơi với các mô hình và khảo sát các tính chất của chúng 😃.
 
