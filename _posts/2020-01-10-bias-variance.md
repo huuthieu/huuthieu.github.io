@@ -74,7 +74,7 @@ Cuối cùng, ta set λ rất lớn. Variance của Ridge đã trờ nên rất 
 
 ## Nhận xét
 
-![fab](img/bias-variance/fabricated.png)
+![fab](img/bias-variance/bvplot.png)
 
 Hình trên cho ta cái nhìn tóm tắt về quá trình thí nghiệm. OLS có bias thấp nhất những cũng variance cao nhất. Ridge có vẻ smooth hơn còn Lasso thì kịch khung cmnr khi λ = 0.2. Theo hình thì Ridge sẽ đạt được sự cân bằng tốt nhất trong tradeoff giữa bias và variance.
 
@@ -82,6 +82,6 @@ Hình trên cho ta cái nhìn tóm tắt về quá trình thí nghiệm. OLS có
 
 Một phân phối lý tưởng trong thực tế sẽ có dạng như sau:
 
-![bv](img/bias-variance/bvplot.png)
+![bv](img/bias-variance/fabricated.png)
 
 Lợi thế mà Ridge cung cấp ngay lập tức được thể hiện rõ ràng ở đây. Ridge đưa ra dự đoán hơi bias, nhưng sẽ đưa ra dự đoán gần với giá trị thực thường xuyên hơn so với OLS. Đây là giá trị thực sự của Ridge. Một sự bias nhỏ, nhưng dự đoán nhất quán hơn. OLS đưa ra kết quả không bias nhưng không nhất quán. OLS cho kết quả trung bình không bias, tuy nhiên kết quả ở từng điểm dữ liệu thì không phải lúc nào cũng vậy. Và đó là sự tradeoff giữa bias và variance hình thành trong các mô hình tuyến tính.
