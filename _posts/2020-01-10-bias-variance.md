@@ -36,37 +36,37 @@ Trong hình, giá trị thực được biểu diễn bằng đường nét đ�
 
 Ta có thể thấy 3 phân phối overlap lên nhau với giá trị mean xung quanh giá trị thực (là $x = 2$). Do đó trường hợp này không có bias, tuy nhiên giá trị variance là lớn (khoảng từ 9 đến 13).
 
-## $λ = 0.01$
+## $$λ = 0.01$$
 
 ![l0_01](img/bias-variance/l0_1.png)
 
 Mới chỉ tăng λ lên một chút ta đã thấy có sự khác biệt ở đây. Theo đó, các phân phối có xu hướng bị dịch sang trái. Ridge bị một ít bias (độ lệch của mean phân phối so với giá trị thực), trong khi Lasso bị bias nhiều hơn. Điều đó cho thấy Lasso nhạy cảm với nhiễu nhiều hơn so với Ridge. Ở trường hợp này variance không thay đổi nhiều so với trường hợp trước.
 
-## $λ = 0.05$
+## $$λ = 0.05$$
 
 ![l0_05](img/bias-variance/l0_05.png)
 
 Với λ = 0.05 ta thấy Lasso đã bị bias quá nhiều (3 đơn vị). Ridge vẫn không bị bias nhiều tuy nhiên variance vẫn vậy. Do đó có thể thấy với dữ liệu này thì Ridge không có tác dụng gì.
 
-## $λ = 0.1$
+## $$λ = 0.1$$
 
 ![l0_1](img/bias-variance/l0_1.png)
 
 Gần như giống hệt kết quả của trường hợp trước. Ta không thấy rõ sự thay đổi của variance.
 
-## $λ = 0.5$
+## $$λ = 0.5$$
 
 ![l0_5](img/bias-variance/l0_5.png)
 
 λ cao hơn cho ta một số nhận xét hợp lý sau. Bias của Ridge đã tăng lên gần ba đơn vị, nhưng variance đã nhỏ hơn. Lasso đã penalty làm cho hệ sốβ  gần bằng không dẫn đến kết quả có bias rất cao nhưng có variance nhỏ.
 
-## $λ = 1$
+## $$λ = 1$$
 
 ![l1](img/bias-variance/l1.png)
 
 **Một kết quả khá ổn.** Ở đây sự tradeoff đã đổi chiều. Variance của Ridge đã nhỏ đi đánh đổi với việc có bias lớn.
 
-## $λ = 5$
+## $$λ = 5$$
 
 ![I5](img/bias-variance/l5.png)
 
