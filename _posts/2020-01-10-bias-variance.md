@@ -8,7 +8,7 @@ categories: programming
 
 ## Tóm tắt về bias và variance tradeoff trong mô hình tuyến tính
 
-Đây là một bài viết khá hay của tác giả Nischal M ở đây: 
+Đây là một bài viết khá hay của tác giả Nischal M ở đây [link](https://towardsdatascience.com/bias-and-variance-in-linear-models-e772546e0c30). Mình xin dịch lại và nhận xét thêm một số thứ.
 
 Chắc hẳn nhiều người đã từng nhìn thấy sơ đồ này:
 
