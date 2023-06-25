@@ -50,7 +50,7 @@ minima:
 # - about.md
 
 # Build settings
-theme: forty
+theme: minima
 
 plugins:
  - jekyll-feed
