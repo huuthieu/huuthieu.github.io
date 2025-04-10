@@ -1,4 +1,9 @@
-# Nén dữ liệu hiệu quả và đánh chỉ mục với roaring bitmap
+---
+layout: post
+title: Nén dữ liệu hiệu quả và đánh chỉ mục với roaring bitmap
+categories: reading
+---
+
 
 Thế giới hiện đại đã chứng kiến sự bùng nổ về dữ liệu, dẫn đến vấn đề nảy sinh về tài nguyên cơ sở hạ tầng sử dụng để lưu trữ cũng như hiệu suất truy vấn dữ liệu tăng lên đáng kể.
 Trong ngữ cảnh đó, các kỹ thuật nén và tối ưu truy vấn trở nên quan trọng và cần thiết. Một số giải pháp tập trung vào việc nén dữ liệu, giúp giảm thiểu lượng data cần để lưu trữ, một số khác tập trung vào việc tối ưu truy vấn thông tin. Roaring Bitmap nổi bật với khả năng cân bằng giữa việc nén và hiệu suất truy vấn.
