@@ -23,7 +23,13 @@ Bitmap là một cấu trúc dữ liệu đơn giản và phổ biến trong vi�
 
 Để query 1 tập user thỏa mãn điều kiện: "Sống ở Hà Nội và (Thích xem phim hoặc Thích nghe nhạc)": ta có thể query nhanh chóng bằng phép toán tập hợp (bitwise operator):
 
+```latex
+Sống ở Hà Nội AND (Thích xem phim OR Thích nghe nhạc)
+    |                   |                   |
+1111111011    AND (0101100100     OR    0011000010)     =   0111100010
 => Sống ở Hà Nội và Thích xem phim hoặc Thích nghe nhạc = {1, 2, 3, 4, 8}
+```
+
 Mặc dù bitmap truyền thống đơn giản và dễ hiểu, nhưng khi phải sử dụng để lưu trữ chỉ một giá trị lớn như 1 tỷ, đòi hỏi phải có rất nhiều số 0.
 
 ```latex
