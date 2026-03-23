@@ -10,7 +10,7 @@ Progress as of  Octorber 2, 2021: .
 1. ✓ Start a company
 2. ✗ Brace
 3. ✗ Have paper in top tier conference
-4. ✗ Fall in love
+4. ✓ Fall in love
 5. ✗ Earn first 1000$ from stock
 6. ✗ Gym continuously for 6 months
 7. ✗ Learn to play guitar
