@@ -4,6 +4,8 @@ title: Fraud detection system
 categories: reading
 ---
 
+Rule-based fraud detection is slow to adapt, plagued by false positives, fragmented across platforms, and blind to novel attack patterns. This post outlines an ML-driven replacement: a five-layer pipeline that ingests cross-platform telemetry, engineers behavioral and temporal features through a hybrid Lambda architecture, runs a four-model ensemble (LightGBM, LSTM, Isolation Forest, Meta-Learner), and serves decisions under 100ms p95 with automatic fallback. It also covers class imbalance handling, drift detection via PSI and proxy signals, and a canary-based retraining pipeline designed to keep the system current as fraud techniques evolve.
+
 ## Problem Framing: From Rule-Based to Intelligent Detection
 
 The rule-based fraud detection system struggles with four core challenges:
